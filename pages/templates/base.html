@@ -1,0 +1,20 @@
+<!-- pages/templates/base.html -->
+<header>  
+    <!-- this is the header of the base.html file-->
+
+    <a href="{% url 'home' %}">Home</a> | <a href="{% url 'about' %}">About</a> 
+    <!-- strings containing Python code enclosed, possessing link to home and about pages -->
+  
+</header>
+  
+  {% block content %}
+  {% endblock content %}
+
+<footer>
+    <ul>
+        <li>Contact Us</li> 
+        <li>Facebook</li>
+        <li><a href="https://linkedin.com/in/jamishabell">LinkedIn</a></li>
+    </ul>
+    <!-- this is the footer of the base.html file-->
+</footer>
